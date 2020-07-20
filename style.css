@@ -7,11 +7,10 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
 }
 
 .container{
-    width: 60vh;
+    width: 55vh;
     justify-content: center;
     margin: auto;
     text-align: center;
