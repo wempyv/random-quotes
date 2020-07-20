@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 60vh;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+h2{
+    margin-top: 90px;
+    font-size: 30px;
+    color: #837f7f;
+}
+
+.btn-get-quotes{
+    background-color: rgb(0, 0, 255);
+    color: white;
+    border-radius:6px;
+    padding: 12px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-get-quotes:hover{
+    background-color: #9148e4;
+}
+
+.quotes-box{
+    padding: 18px;
+    margin: 10vh 3vh;
+    text-align: left;
+    font-family: 'Itim', cursive;
+    color: #837f7f;
+    border-radius: 6px;
+    font-weight: 500;
+    background-color: rgb(245, 243, 243);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.source{
+    display: block;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+
+.footer{
+    color: #a8a8a8;
+    font-weight: 300px;
+    font-size: 14px;
+    margin-top: 10vh;
+}
